@@ -7,5 +7,7 @@ def oxford_comma(array)
   elsif length == 2
     new_string = array[0..-2].join(", ") + " and " + array[-1]
     return new_string
+  else
+    
   end
 end
