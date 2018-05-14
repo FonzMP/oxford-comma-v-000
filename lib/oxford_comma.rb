@@ -5,7 +5,8 @@ def oxford_comma(array)
     return new_sentence
   else
     array.insert(-2, "and")
-    new_string = array[0, -2].join(", ") + " " + array[-1]
+    new_string = array[0, -2].join(", ")
+    new_string  += " " + array[-1]
     return new_string
   end
 end
