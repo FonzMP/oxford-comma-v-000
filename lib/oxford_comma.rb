@@ -1,6 +1,6 @@
 def oxford_comma(array)
   length = array.size.to_i
-  if array.size < 2
+  if length < 2
     new_sentence = array.join(", ")
     return new_sentence
   else
