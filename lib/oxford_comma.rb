@@ -6,7 +6,7 @@ def oxford_comma(array)
     return new_sentence
   elsif length == 2
     new_sentance = array[0] + " and " array[1]
-    return new_sentance
+    return new_sentence
   else
     new_string = array[0..-2].join(", ") + " and " + array[-1]
     return new_string
