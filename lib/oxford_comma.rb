@@ -9,6 +9,7 @@ def oxford_comma(array)
     return new_sentence
   else
     new_string = array.join(", ")
+    delete new_string[-2]
     return new_string
   end
 end
